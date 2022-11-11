@@ -3,7 +3,7 @@ on: [push]
 
 env:
   TAG_NAME: latest
-  IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/codeignier
+  IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/codeigniter
   ARTIFACT_NAME: codeignier
 
 jobs:
